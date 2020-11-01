@@ -30,7 +30,6 @@ export default styled(memo(({className, ingredients, navigate}) => {
     }, [setIndex, recipes]);
 
     const content = useMemo(()=>{
-        console.log(recipes)
         if(!recipes) return <Loader/>;
         if(recipes.length === 0) return <div className='no-match'><span> לא נמצא מתכון מתאים, אנא חזור לעריכת מצרכים</span></div>;
         return <>

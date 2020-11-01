@@ -37,4 +37,21 @@ export const Recipe = css`
             text-align: start;
             padding: 0 10%;
     }
+
+    > .replace-list {
+        width: fit-content;
+        
+        > .replace-item {
+            display: flex;
+            align-items: center;
+            height: 24px;
+            font-size: 14px;
+
+            &:before{
+                content: '←';
+                margin: 0px 160px 0px 20px;
+                font-size: 30px;
+            }
+        }
+    }
 `;
