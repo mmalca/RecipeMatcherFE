@@ -45,7 +45,7 @@ module.exports = {
         historyApiFallback: true,
         hot: true,
         open: true,
-        // host: '10.10.248.98'
+        host: '10.10.248.98'
     },
     devtool: 'inline-source-map',
 };
